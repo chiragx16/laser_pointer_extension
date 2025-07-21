@@ -24,6 +24,7 @@ A sleek and customizable laser trail that follows your mouse across any web page
 4. Click **"Load unpacked"**.
 5. Select the project folder (e.g., `laser-pointer-extension`).
 
+Note: Remove "Preview Video" Folder before Loading Extension
 ---
 
 ## 📁 Project Structure
@@ -31,10 +32,11 @@ A sleek and customizable laser trail that follows your mouse across any web page
 ```bash
 laser-pointer-extension/
 ├── manifest.json
-├── contentScript.js
+├── background.js
+├── content.js
 ├── popup.html
 ├── popup.js
-├── popup.css
+├── styles.css
 └── icons/
     └── icon16.png
     └── icon48.png
