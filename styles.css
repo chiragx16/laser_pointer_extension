@@ -1,0 +1,12 @@
+.laser-dot {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ff4d4d 0%, #ff0066 60%, transparent 100%);
+  pointer-events: none;
+  z-index: 999999;
+  opacity: 1;
+  transition: opacity 0.5s ease-out, transform 0.3s ease;
+  box-shadow: 0 0 12px rgba(255, 0, 100, 0.8);
+}
